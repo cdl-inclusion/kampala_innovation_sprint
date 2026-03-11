@@ -1,0 +1,4 @@
+modal
+pathlib
+numpy
+fastapi
