@@ -26,7 +26,7 @@ MODEL_DOWNLOAD_DIR = Path("downloads")
 GPU = 'L4'
 SCALEDOWN = 60 * 2  # seconds
 
-HUGGINGFACE_REPO = "cdli/whisper-tiny_finetuned_ugandan_english_nonstandard_speech_v1.0"
+HUGGINGFACE_REPO = "cdli/whisper-large-v3_finetuned_ugandan_english_nonstandard_speech_v1.0"
 
 def maybe_download_and_convert_model(model_storage_dir, model_id):
     """Download and convert model to CTranslate2 format if not available locally.
